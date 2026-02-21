@@ -1212,8 +1212,8 @@
         "Type": "Splash",
         "Image": "rbxassetid://18256011276",
         "Rarity": "Nightmare",
-        "PlacePrice": 10000,
-        "Max": 3,
+        "PlacePrice": 22500,
+        "Max": 2,
         "Passive": {"Name": "Slow", "Description": "Slows enemies"},
         "hitboxOffset": {
             "X": 0,
@@ -1223,33 +1223,33 @@
         "Upgrades": [
             {
                 "Price": 0,
-                "Range": 20,
+                "Range": 17,
                 "Damage": 750,
-                "Cooldown": 2,
+                "Cooldown": 3,
                 "Slow": 0.70,
                 "SlowTime": 1
             },
             {
-                "Price": 12000,
-                "Range": 22,
+                "Price": 27500,
+                "Range": 20,
                 "Damage": 1250,
+                "Cooldown": 2.5,
+                "Slow": 0.70,
+                "SlowTime": 1
+            },
+            {
+                "Price": 32000,
+                "Range": 22,
+                "Damage": 1555,
                 "Cooldown": 1.5,
                 "Slow": 0.70,
                 "SlowTime": 1
             },
             {
-                "Price": 15000,
+                "Price": 35000,
                 "Range": 25,
-                "Damage": 1555,
-                "Cooldown": 1,
-                "Slow": 0.70,
-                "SlowTime": 1
-            },
-            {
-                "Price": 20000,
-                "Range": 28,
                 "Damage": 1850,
-                "Cooldown": 0.5,
+                "Cooldown": 1,
                 "Slow": 0.70,
                 "SlowTime": 1
             }

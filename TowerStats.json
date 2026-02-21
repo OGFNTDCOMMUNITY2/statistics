@@ -1209,11 +1209,12 @@
         ]
     },
     "Leviathan Mangle": {
-        "Type": "Pierce",
+        "Type": "Splash",
         "Image": "rbxassetid://18256011276",
         "Rarity": "Nightmare",
         "PlacePrice": 10000,
         "Max": 3,
+        "Passive": {"Name": "Slow", "Description": "Slows enemies"},
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -1222,27 +1223,35 @@
         "Upgrades": [
             {
                 "Price": 0,
-                "Range": 12,
-                "Damage": 400,
-                "Cooldown": 2
+                "Range": 20,
+                "Damage": 750,
+                "Cooldown": 2,
+                "Slow": 0.70,
+                "SlowTime": 1
             },
             {
                 "Price": 12000,
-                "Range": 15,
-                "Damage": 500,
-                "Cooldown": 1.5
+                "Range": 22,
+                "Damage": 1250,
+                "Cooldown": 1.5,
+                "Slow": 0.70,
+                "SlowTime": 1
             },
             {
                 "Price": 15000,
-                "Range": 18,
-                "Damage": 600,
-                "Cooldown": 1
+                "Range": 25,
+                "Damage": 1555,
+                "Cooldown": 1,
+                "Slow": 0.70,
+                "SlowTime": 1
             },
             {
                 "Price": 20000,
-                "Range": 20,
-                "Damage": 750,
-                "Cooldown": 0.5
+                "Range": 28,
+                "Damage": 1850,
+                "Cooldown": 0.5,
+                "Slow": 0.70,
+                "SlowTime": 1
             }
         ]
     },
